@@ -482,6 +482,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="text-center text-lg text-black m-10">
+        Copyright © 2022 jhyunwoo0228@gmail.com
+      </div>
     </div>
   );
 }
