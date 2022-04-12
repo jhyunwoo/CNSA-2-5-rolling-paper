@@ -27,7 +27,7 @@ export default function Home() {
       <div className="bg-slate-100 shadow-2xl rounded-2xl shadow-slate-300 p-10 m-10 flex flex-wrap">
         <div className="bg-red-300 shadow-red-300 hover:bg-red-400 hover:shadow-red-400 text-red-300 hover:text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
           <div className="text-3xl m-2 text-white">김범수</div>
-          <div className="text-2xl mx-2">"삼성고 퀸카 이윤지"</div>
+          <div className="text-2xl mx-2">&quot;삼성고 퀸카 이윤지&quot;</div>
         </div>
         <div className="bg-orange-400 shadow-orange-400 hover:bg-orange-500 hover:shadow-orange-500 text-orange-400 hover:text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
           <div className="text-3xl m-2 text-white">심상현</div>
