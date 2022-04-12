@@ -1,3 +1,22 @@
+import Image from "next/image";
+import photo01 from "../public/images/photo-01.jpg";
+import photo02 from "../public/images/photo-02.jpeg";
+import photo03 from "../public/images/photo-03.jpeg";
+import photo04 from "../public/images/photo-04.jpeg";
+import photo05 from "../public/images/photo-05.jpeg";
+import photo06 from "../public/images/photo-06.jpeg";
+import photo07 from "../public/images/photo-07.jpeg";
+import photo08 from "../public/images/photo-08.jpeg";
+import photo09 from "../public/images/photo-09.jpeg";
+import photo10 from "../public/images/photo-10.jpeg";
+import photo11 from "../public/images/photo-11.jpeg";
+import photo12 from "../public/images/photo-12.jpeg";
+import photo13 from "../public/images/photo-13.jpeg";
+import photo14 from "../public/images/photo-14.jpeg";
+import photo15 from "../public/images/photo-15.jpeg";
+import photo16 from "../public/images/photo-16.jpeg";
+import photo17 from "../public/images/photo-17.jpeg";
+
 export default function Home() {
   return (
     <div>
@@ -21,7 +40,7 @@ export default function Home() {
           <div className="text-3xl m-2 text-white">안관영</div>
           <div className="text-2xl mx-2">
             윤지야 짧은 시간동안 본 건 아쉽지만 가서도 네 해맑고 유쾌한 성격으로
-            잘 지낼거라고 믿어. 앞으로도 그 모습 계속 보여줬으면 좋겠다. 화이팅!{" "}
+            잘 지낼거라고 믿어. 앞으로도 그 모습 계속 보여줬으면 좋겠다. 화이팅!
           </div>
         </div>
         <div className="bg-yellow-300 shadow-yellow-300 hover:bg-yellow-400 hover:shadow-yellow-400 text-yellow-300 hover:text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
@@ -40,7 +59,7 @@ export default function Home() {
             귀요미는 누가하는데.... 나 아직 너 머리카락 많이 못 만졌다구 우리
             나중에 만나면 완존 많이 만질게..진짜... 나 너 완전완전 보고싶을 것
             같구 생각날 것 같아.. 너 없는 건 너무 외로울 거야ㅜㅜ 그리고 너 완전
-            E니까 가서도 잘할것 같애ㅋㅋㅋ 안뇽..! 나중에 볼 수있으면 좋겠당!!{" "}
+            E니까 가서도 잘할것 같애ㅋㅋㅋ 안뇽..! 나중에 볼 수있으면 좋겠당!!
           </div>
         </div>
         <div className="bg-green-300 shadow-green-300 hover:bg-green-400 hover:shadow-green-400 text-green-300 hover:text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
@@ -249,10 +268,217 @@ export default function Home() {
             말을 하게 되다니.. 아쉽다... 캐나다에 가서도 잘 살다 오길 바래
           </div>
         </div>
+        <div className="bg-red-300 shadow-red-300 hover:bg-red-400 hover:shadow-red-400 text-red-300 hover:text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+          <div className="text-3xl m-2 text-white">김도임</div>
+          <div className="text-2xl mx-2">
+            유학가서 즐겁고 행복하길 바랄게, 잘가~
+          </div>
+        </div>
         <div className="bg-rose-300 shadow-rose-300 hover:bg-rose-400 hover:shadow-rose-400 text-rose-300 hover:text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
-          <div className="text-3xl m-2 text-white">김도연, 연수인, 김도임</div>
+          <div className="text-3xl m-2 text-white">김도연, 연수인</div>
           <div className="text-2xl mx-2">
             윤지야 거기가서도 지금처럼 밝고 씩씩하게 지내줘 항상 행복하길 바랄게
+          </div>
+        </div>
+      </div>
+      <div className=" text-center bg-slate-100 rounded-2xl m-10 p-10 shadow-2xl shadow-slate-100">
+        <div className="text-4xl my-10">2-5 사진첩</div>
+        <div>
+          <div className="flex flex-wrap">
+            <div className="w-96 m-3 shadow-xl p-3 rounded-xl bg-slate-300 shadow-slate-300">
+              <Image src={photo06} alt="photo-01" layout="intrinsic" />
+            </div>
+            <div className="w-96 m-3 shadow-xl p-3 rounded-xl bg-slate-300 shadow-slate-300">
+              <Image src={photo07} alt="photo-01" layout="intrinsic" />
+            </div>
+            <div className="w-96 m-3 shadow-xl p-3 rounded-xl bg-slate-300 shadow-slate-300">
+              <Image src={photo08} alt="photo-01" layout="intrinsic" />
+            </div>
+            <div className="w-96 m-3 shadow-xl p-3 rounded-xl bg-slate-300 shadow-slate-300">
+              <Image src={photo09} alt="photo-01" layout="intrinsic" />
+            </div>
+            <div className="w-96 m-3 shadow-xl p-3 rounded-xl bg-slate-300 shadow-slate-300">
+              <Image src={photo02} alt="photo-01" layout="intrinsic" />
+            </div>
+            <div className="w-96 m-3 shadow-xl p-3 rounded-xl bg-slate-300 shadow-slate-300">
+              <Image src={photo04} alt="photo-01" layout="intrinsic" />
+            </div>
+            <div className="w-96 m-3 shadow-xl p-3 rounded-xl bg-slate-300 shadow-slate-300">
+              <Image src={photo05} alt="photo-01" layout="intrinsic" />
+            </div>
+            <div className="w-96 m-3 shadow-xl p-3 rounded-xl bg-slate-300 shadow-slate-300">
+              <Image src={photo10} alt="photo-01" layout="intrinsic" />
+            </div>
+            <div className="w-96 m-3 shadow-xl p-3 rounded-xl bg-slate-300 shadow-slate-300">
+              <Image src={photo11} alt="photo-01" layout="intrinsic" />
+            </div>
+            <div className="w-96 m-3 shadow-xl p-3 rounded-xl bg-slate-300 shadow-slate-300">
+              <Image src={photo12} alt="photo-01" layout="intrinsic" />
+            </div>
+            <div className="w-96 m-3 shadow-xl p-3 rounded-xl bg-slate-300 shadow-slate-300">
+              <Image src={photo13} alt="photo-01" layout="intrinsic" />
+            </div>
+            <div className="w-96 m-3 shadow-xl p-3 rounded-xl bg-slate-300 shadow-slate-300">
+              <Image src={photo14} alt="photo-01" layout="intrinsic" />
+            </div>
+            <div className="w-96 m-3 shadow-xl p-3 rounded-xl bg-slate-300 shadow-slate-300">
+              <Image src={photo15} alt="photo-01" layout="intrinsic" />
+            </div>
+            <div className="w-96 m-3 shadow-xl p-3 rounded-xl bg-slate-300 shadow-slate-300">
+              <Image src={photo16} alt="photo-01" layout="intrinsic" />
+            </div>
+            <div className="w-96 m-3 shadow-xl p-3 rounded-xl bg-slate-300 shadow-slate-300">
+              <Image src={photo17} alt="photo-01" layout="intrinsic" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-slate-100 shadow-2xl rounded-2xl shadow-slate-300 p-10 m-10">
+        <div className="text-4xl text-center">2-5 연락망</div>
+        <div>
+          <div className="flex flex-wrap">
+            <div className="bg-red-300 shadow-red-300 hover:bg-red-400 hover:shadow-red-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">강민석</div>
+              <div className="text-2xl mx-2">cnsa1102@gmail.com</div>
+            </div>
+            <div className="bg-orange-400 shadow-orange-400 hover:bg-orange-500 hover:shadow-orange-500  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">강시우</div>
+              <div className="text-2xl mx-2">kswhts@gmail.com</div>
+            </div>
+            <div className="bg-amber-400 shadow-amber-400 hover:bg-amber-500 hover:shadow-amber-500 text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">곽은규</div>
+              <div className="text-2xl mx-2">eun112371@gmail.com</div>
+            </div>
+            <div className="bg-yellow-300 shadow-yellow-300 hover:bg-yellow-400 hover:shadow-yellow-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">김도연</div>
+              <div className="text-2xl mx-2">iam16y@naver.com</div>
+            </div>
+            <div className="bg-lime-300 shadow-lime-300 hover:bg-lime-400 hover:shadow-lime-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">김도임</div>
+              <div className="text-2xl mx-2">doyim3806@naver.com</div>
+            </div>
+            <div className="bg-green-300 shadow-green-300 hover:bg-green-400 hover:shadow-green-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">김민서</div>
+              <div className="text-2xl mx-2">kiminse05@naver.com</div>
+            </div>
+            <div className="bg-emerald-300 shadow-emerald-300 hover:bg-emerald-400 hover:shadow-emerald-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">김범수</div>
+              <div className="text-2xl mx-2">adadsfsf1212@daum.net</div>
+            </div>
+            <div className="bg-teal-300 shadow-teal-400 hover:bg-teal-400 hover:shadow-teal-300  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">김성환</div>
+              <div className="text-2xl mx-2">gimseonghwan259@gmail.com</div>
+            </div>
+            <div className="bg-cyan-300 shadow-cyan-300 hover:bg-cyan-400 hover:shadow-cyan-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">김세연</div>
+              <div className="text-2xl mx-2">tpdus050406@naver.com</div>
+            </div>
+            <div className="bg-sky-300 shadow-sky-300 hover:bg-sky-400 hover:shadow-sky-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">김시연</div>
+              <div className="text-2xl mx-2">kimsiyeon1223@naver.com</div>
+            </div>
+            <div className="bg-blue-300 shadow-blue-300 hover:bg-blue-400 hover:shadow-blue-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">김형진</div>
+              <div className="text-2xl mx-2">justinlink0550@gmail.com</div>
+            </div>
+            <div className="bg-indigo-300 shadow-indigo-300 hover:bg-indigo-400 hover:shadow-indigo-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">박서진</div>
+              <div className="text-2xl mx-2">hisj.park@gmail.com</div>
+            </div>
+            <div className="bg-violet-300 shadow-violet-300 hover:bg-violet-400 hover:shadow-violet-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">박유민</div>
+              <div className="text-2xl mx-2">bym050701@gmail.com</div>
+            </div>
+            <div className="bg-purple-300 shadow-purple-300 hover:bg-purple-400 hover:shadow-purple-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">백승하</div>
+              <div className="text-2xl mx-2">baekha0729@naver.com</div>
+            </div>
+            <div className="bg-fuchsia-300 shadow-fuchsia-300 hover:bg-fuchsia-400 hover:shadow-fuchsia-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">변상빈</div>
+              <div className="text-2xl mx-2">startbelik@gmail.com</div>
+            </div>
+            <div className="bg-pink-300 shadow-pink-300 hover:bg-pink-400 hover:shadow-pink-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">서장원</div>
+              <div className="text-2xl mx-2">
+                ssjjww11sfhasfgjplhjk@gmail.com
+              </div>
+            </div>
+            <div className="bg-rose-300 shadow-rose-300 hover:bg-rose-400 hover:shadow-rose-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">신동호</div>
+              <div className="text-2xl mx-2">미제출</div>
+            </div>
+            <div className="bg-red-300 shadow-red-300 hover:bg-red-400 hover:shadow-red-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">심상현</div>
+              <div className="text-2xl mx-2">childu14@naver.com</div>
+            </div>
+            <div className="bg-orange-400 shadow-orange-400 hover:bg-orange-500 hover:shadow-orange-500  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">심서진</div>
+              <div className="text-2xl mx-2">미제출</div>
+            </div>
+            <div className="bg-amber-400 shadow-amber-400 hover:bg-amber-500 hover:shadow-amber-500  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">안관영</div>
+              <div className="text-2xl mx-2">angwanyeong@gmail.com</div>
+            </div>
+            <div className="bg-yellow-300 shadow-yellow-300 hover:bg-yellow-400 hover:shadow-yellow-400 text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">연수인</div>
+              <div className="text-2xl mx-2">snyeon5121@naver.com</div>
+            </div>
+            <div className="bg-lime-300 shadow-lime-300 hover:bg-lime-400 hover:shadow-lime-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">예허준</div>
+              <div className="text-2xl mx-2">heojunye667@gmail.com</div>
+            </div>
+            <div className="bg-green-300 shadow-green-300 hover:bg-green-400 hover:shadow-green-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">윤기완</div>
+              <div className="text-2xl mx-2">davidmario519@gmail.com</div>
+            </div>
+            <div className="bg-emerald-300 shadow-emerald-300 hover:bg-emerald-400 hover:shadow-emerald-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">이성한</div>
+              <div className="text-2xl mx-2">icanlee2@gmail.com</div>
+            </div>
+            <div className="bg-teal-300 shadow-teal-400 hover:bg-teal-400 hover:shadow-teal-300  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">이정현</div>
+              <div className="text-2xl mx-2">jwljul06@gmail.com</div>
+            </div>
+            <div className="bg-cyan-300 shadow-cyan-300 hover:bg-cyan-400 hover:shadow-cyan-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">이지연</div>
+              <div className="text-2xl mx-2">cleveralice907@gmail.com</div>
+            </div>
+            <div className="bg-sky-300 shadow-sky-300 hover:bg-sky-400 hover:shadow-sky-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">이태은</div>
+              <div className="text-2xl mx-2">teun0201@naver.com</div>
+            </div>
+            <div className="bg-blue-300 shadow-blue-300 hover:bg-blue-400 hover:shadow-blue-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">임수민</div>
+              <div className="text-2xl mx-2">미제출</div>
+            </div>
+            <div className="bg-indigo-300 shadow-indigo-300 hover:bg-indigo-400 hover:shadow-indigo-400 text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">임수한</div>
+              <div className="text-2xl mx-2">luke00804@gmail.com</div>
+            </div>
+            <div className="bg-violet-300 shadow-violet-300 hover:bg-violet-400 hover:shadow-violet-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">전규진</div>
+              <div className="text-2xl mx-2">jkj05224@naver.com</div>
+            </div>
+            <div className="bg-purple-300 shadow-purple-300 hover:bg-purple-400 hover:shadow-purple-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">전지훈</div>
+              <div className="text-2xl mx-2">magic8423@gmail.com</div>
+            </div>
+            <div className="bg-fuchsia-300 shadow-fuchsia-300 hover:bg-fuchsia-400 hover:shadow-fuchsia-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">전현우</div>
+              <div className="text-2xl mx-2">jhyunwoo0228@gmail.com</div>
+            </div>
+            <div className="bg-pink-300 shadow-pink-300 hover:bg-pink-400 hover:shadow-pink-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">정윤승</div>
+              <div className="text-2xl mx-2">bj54321@naver.com</div>
+            </div>
+            <div className="bg-rose-300 shadow-rose-300 hover:bg-rose-400 hover:shadow-rose-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">최경아</div>
+              <div className="text-2xl mx-2">cka68883@gmail.com</div>
+            </div>
+            <div className="bg-red-300 shadow-red-300 hover:bg-red-400 hover:shadow-red-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+              <div className="text-3xl m-2 text-white">최은성</div>
+              <div className="text-2xl mx-2">미제출</div>
+            </div>
           </div>
         </div>
       </div>
