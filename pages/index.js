@@ -24,9 +24,9 @@ export default function Home() {
       <Head>
         <title>2022 CNSA 2-5 Rolling Paper</title>
       </Head>
-      <div className=" text-center bg-blue-500 text-white rounded-2xl m-10 p-10 shadow-2xl shadow-blue-500">
-        <div className="text-8xl">2022 CNSA 2-5 Rolling Paper</div>
-        <div className="text-3xl mt-8">for 이윤지</div>
+      <div className=" text-center bg-blue-500 text-white rounded-2xl m-6 p-6 shadow-2xl shadow-blue-500">
+        <div className="text-6xl">2022 CNSA 2-5 Rolling Paper</div>
+        <div className="text-2xl mt-6">for 이윤지</div>
       </div>
       <div className="bg-slate-100 shadow-2xl rounded-2xl shadow-slate-300 p-10 m-10 flex flex-wrap">
         <div className="bg-red-300 shadow-red-300 hover:bg-red-400 hover:shadow-red-400 text-red-300 hover:text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
