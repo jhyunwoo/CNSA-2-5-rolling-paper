@@ -285,7 +285,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className=" text-center bg-slate-100 rounded-2xl m-10 p-10 shadow-2xl shadow-slate-100">
+      <div className=" text-center bg-slate-100 rounded-2xl m-4 p-4 shadow-2xl shadow-slate-100">
         <div className="text-4xl my-10">2-5 사진첩</div>
         <div>
           <div className="flex flex-wrap justify-center">
@@ -337,7 +337,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-slate-100 shadow-2xl rounded-2xl shadow-slate-300 p-10 m-10">
+      <div className="bg-slate-100 shadow-2xl rounded-2xl shadow-slate-300 p-4 m-4">
         <div className="text-4xl text-center">2-5 연락망</div>
         <div>
           <div className="flex flex-wrap">
