@@ -24,11 +24,11 @@ export default function Home() {
       <Head>
         <title>2022 CNSA 2-5 Rolling Paper</title>
       </Head>
-      <div className=" text-center bg-blue-500 text-white rounded-2xl m-6 p-6 shadow-2xl shadow-blue-500">
+      <div className=" text-center bg-blue-500 text-white rounded-2xl m-4 p-4 shadow-2xl shadow-blue-500">
         <div className="text-6xl">2022 CNSA 2-5 Rolling Paper</div>
         <div className="text-2xl mt-6">for 이윤지</div>
       </div>
-      <div className="bg-slate-100 shadow-2xl rounded-2xl shadow-slate-300 p-10 m-10 flex flex-wrap">
+      <div className="bg-slate-100 shadow-2xl rounded-2xl shadow-slate-300 p-2 m-2 flex flex-wrap">
         <div className="bg-red-300 shadow-red-300 hover:bg-red-400 hover:shadow-red-400 text-red-300 hover:text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
           <div className="text-3xl m-2 text-white">김범수</div>
           <div className="text-2xl mx-2">&quot;삼성고 퀸카 이윤지&quot;</div>
@@ -56,7 +56,7 @@ export default function Home() {
             공부 잘하고 와 👍
           </div>
         </div>
-        <div className="bg-lime-300 shadow-lime-300 hover:bg-lime-400 hover:shadow-lime-400 text-lime-300 hover:text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+        <div className="bg-lime-300 shadow-lime-300 hover:bg-lime-400 hover:shadow-lime-400 text-lime-300 hover:text-white duration-700 shadow-2xl  rounded-2xl p-4 m-4">
           <div className="text-3xl m-2 text-white">이지연</div>
           <div className="text-2xl mx-2">
             윤지...진짜 어떻게 그렇게 가버릴 수가 있어? 너가 가버리면 우리반
@@ -66,7 +66,7 @@ export default function Home() {
             E니까 가서도 잘할것 같애ㅋㅋㅋ 안뇽..! 나중에 볼 수있으면 좋겠당!!
           </div>
         </div>
-        <div className="bg-green-300 shadow-green-300 hover:bg-green-400 hover:shadow-green-400 text-green-300 hover:text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+        <div className="bg-green-300 shadow-green-300 hover:bg-green-400 hover:shadow-green-400 text-green-300 hover:text-white duration-700 shadow-2xl  rounded-2xl p-4 m-4">
           <div className="text-3xl m-2 text-white">김형진</div>
           <div className="text-2xl mx-2">
             윤지야 우리가 같은 반이 된지 얼마되지 않았는데 유학을 간다니
@@ -288,7 +288,7 @@ export default function Home() {
       <div className=" text-center bg-slate-100 rounded-2xl m-10 p-10 shadow-2xl shadow-slate-100">
         <div className="text-4xl my-10">2-5 사진첩</div>
         <div>
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap justify-center">
             <div className="w-96 m-3 shadow-xl p-3 rounded-xl bg-slate-300 shadow-slate-300">
               <Image src={photo06} alt="photo-01" layout="intrinsic" />
             </div>
@@ -409,7 +409,7 @@ export default function Home() {
             </div>
             <div className="bg-rose-300 shadow-rose-300 hover:bg-rose-400 hover:shadow-rose-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
               <div className="text-3xl m-2 text-white">신동호</div>
-              <div className="text-2xl mx-2">미제출</div>
+              <div className="text-2xl mx-2">sdh050519@naver.com</div>
             </div>
             <div className="bg-red-300 shadow-red-300 hover:bg-red-400 hover:shadow-red-400  text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
               <div className="text-3xl m-2 text-white">심상현</div>
