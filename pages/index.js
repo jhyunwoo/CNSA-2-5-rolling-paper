@@ -337,8 +337,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-slate-100 shadow-2xl rounded-2xl shadow-slate-300 p-4 m-4">
-        <div className="text-4xl text-center">2-5 연락망</div>
+      <div className="bg-slate-100 shadow-2xl rounded-2xl shadow-slate-300 p-2 m-4">
+        <div className="text-4xl text-center m-6">2-5 연락망</div>
         <div>
           <div className="flex flex-wrap">
             <div className="bg-red-300 shadow-red-300 hover:bg-red-400 hover:shadow-red-400  text-white duration-700 shadow-2xl  rounded-2xl p-3 m-3">
