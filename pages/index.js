@@ -1,7 +1,8 @@
 import Image from "next/image";
-import photo01 from "../public/images/photo-01.jpg";
+import Head from "next/head";
+
 import photo02 from "../public/images/photo-02.jpeg";
-import photo03 from "../public/images/photo-03.jpeg";
+
 import photo04 from "../public/images/photo-04.jpeg";
 import photo05 from "../public/images/photo-05.jpeg";
 import photo06 from "../public/images/photo-06.jpeg";
@@ -19,7 +20,10 @@ import photo17 from "../public/images/photo-17.jpeg";
 
 export default function Home() {
   return (
-    <div>
+    <>
+      <Head>
+        <title>2022 CNSA 2-5 Rolling Paper</title>
+      </Head>
       <div className=" text-center bg-blue-500 text-white rounded-2xl m-10 p-10 shadow-2xl shadow-blue-500">
         <div className="text-8xl">2022 CNSA 2-5 Rolling Paper</div>
         <div className="text-3xl mt-8">for 이윤지</div>
@@ -485,6 +489,6 @@ export default function Home() {
       <div className="text-center text-lg text-black m-10">
         Copyright © 2022 jhyunwoo0228@gmail.com
       </div>
-    </div>
+    </>
   );
 }
