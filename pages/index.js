@@ -444,7 +444,7 @@ export default function Home() {
             </div>
             <div className="bg-orange-400 shadow-orange-400 hover:bg-orange-500 hover:shadow-orange-500  text-white duration-700 shadow-2xl  rounded-2xl inline-block p-3 m-3">
               <div className="text-2xl m-3 text-white">심서진</div>
-              <div className="text-xl m-2">미제출</div>
+              <div className="text-xl m-2">seojin4114@naver.com</div>
             </div>
             <div className="bg-amber-400 shadow-amber-400 hover:bg-amber-500 hover:shadow-amber-500  text-white duration-700 shadow-2xl  rounded-2xl inline-block p-3 m-3">
               <div className="text-2xl m-3 text-white">안관영</div>
