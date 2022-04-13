@@ -28,6 +28,7 @@ export default function Home() {
         <div className="text-6xl">2022 CNSA 2-5 Rolling Paper</div>
         <div className="text-2xl mt-6">for 이윤지</div>
       </div>
+      <div>Rolling Paper</div>
       <div className="bg-slate-100 shadow-2xl rounded-2xl shadow-slate-300 p-2 m-2 flex flex-wrap">
         <div className="bg-red-300 shadow-red-300 hover:bg-red-400 hover:shadow-red-400 text-red-300 hover:text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
           <div className="text-3xl m-2 text-white">김범수</div>
@@ -337,7 +338,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-slate-100 shadow-2xl rounded-2xl shadow-slate-300 p-2 m-4">
+      <div className="bg-slate-100 shadow-2xl rounded-2xl shadow-slate-300 p-2 m-4 inline-block">
         <div className="text-4xl text-center m-6">2-5 연락망</div>
         <div>
           <div className="flex flex-wrap">
@@ -401,7 +402,7 @@ export default function Home() {
               <div className="text-2xl m-3 text-white">변상빈</div>
               <div className="text-xl mx-2">startbelik@gmail.com</div>
             </div>
-            <div className="bg-pink-300 shadow-pink-300 hover:bg-pink-400 hover:shadow-pink-400  text-white duration-700 shadow-2xl  rounded-2xl p-3 m-3 inline-block">
+            <div className="bg-pink-300 shadow-pink-300 hover:bg-pink-400 hover:shadow-pink-400  text-white duration-700 shadow-2xl  rounded-2xl p-3 m-3">
               <div className="text-2xl m-3 text-white">서장원</div>
               <div className="text-xl mx-2">
                 ssjjww11sfhasfgjplhjk@gmail.com
