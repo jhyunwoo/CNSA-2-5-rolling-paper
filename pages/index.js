@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Head from "next/head";
+import Script from "next/script";
 
 import photo02 from "../public/images/photo-02.jpeg";
 
@@ -18,64 +19,18 @@ import photo15 from "../public/images/photo-15.jpeg";
 import photo16 from "../public/images/photo-16.jpeg";
 import photo17 from "../public/images/photo-17.jpeg";
 
-const r = document.getElementById("rollingPaper");
-const g = document.getElementById("gallery");
-const c = document.getElementById("connection");
-const setR = document.getElementById("buttonRollingPaper");
-const setG = document.getElementById("buttonGallery");
-const setC = document.getElementById("buttonConnection");
-
-setR.addEventListener("click", () => {
-  window.scrollBy({
-    top: r.getBoundingClientRect().top,
-    behavior: "smooth",
-  });
-});
-
-setG.addEventListener("click", () => {
-  window.scrollBy({
-    top: g.getBoundingClientRect().top,
-    behavior: "smooth",
-  });
-});
-
-setC.addEventListener("click", () => {
-  window.scrollBy({
-    top: c.getBoundingClientRect().top,
-    behavior: "smooth",
-  });
-});
-
 export default function Home() {
   return (
     <>
       <Head>
         <title>2022 CNSA 2-5 Rolling Paper</title>
       </Head>
+
       <div className=" text-center bg-blue-500 text-white rounded-2xl m-4 p-4 shadow-2xl shadow-blue-500">
         <div className="text-6xl">2022 CNSA 2-5 Rolling Paper</div>
         <div className="text-2xl mt-6">for 이윤지</div>
       </div>
-      <div className="flex felx-wrap justify-center">
-        <button
-          id="buttonRollingPaper"
-          className="bg-indigo-500 p-4 m-4 rounded-2xl shadow-2xl shadow-indigo-500 text-white text-xl hover:bg-indigo-600 duration-100"
-        >
-          Rolling Paper
-        </button>
-        <button
-          id="buttonGallery"
-          className="bg-indigo-500 p-4 m-4 rounded-2xl shadow-2xl shadow-indigo-500 text-white text-xl hover:bg-indigo-600 duration-100"
-        >
-          Gallery
-        </button>
-        <button
-          id="buttonConnection"
-          className="bg-indigo-500 p-4 m-4 rounded-2xl shadow-2xl shadow-indigo-500 text-white text-xl hover:bg-indigo-600 duration-100"
-        >
-          Connection
-        </button>
-      </div>
+
       <div className="bg-slate-100 shadow-2xl rounded-2xl shadow-slate-300 p-2 m-2">
         <div
           id="rollingPaper"
@@ -354,7 +309,7 @@ export default function Home() {
           id="gallery"
           className="text-4xl text-center bg-slate-200 shadow-2xl shadow-slate-300 m-4 p-4 rounded-2xl"
         >
-          2-5 사진첩
+          2-5 Gallery
         </div>
         <div>
           <div className="flex flex-wrap justify-center">
@@ -411,7 +366,7 @@ export default function Home() {
           id="connection"
           className="text-4xl text-center bg-slate-200 shadow-2xl shadow-slate-300 m-4 p-4 rounded-2xl"
         >
-          2-5 연락망
+          2-5 Contact
         </div>
         <div>
           <div className="flex flex-wrap">
