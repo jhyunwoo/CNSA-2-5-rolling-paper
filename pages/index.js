@@ -401,7 +401,7 @@ export default function Home() {
               <div className="text-2xl m-3 text-white">변상빈</div>
               <div className="text-xl mx-2">startbelik@gmail.com</div>
             </div>
-            <div className="bg-pink-300 shadow-pink-300 hover:bg-pink-400 hover:shadow-pink-400  text-white duration-700 shadow-2xl  rounded-2xl p-3 m-3">
+            <div className="bg-pink-300 shadow-pink-300 hover:bg-pink-400 hover:shadow-pink-400  text-white duration-700 shadow-2xl  rounded-2xl p-3 m-3 inline-block">
               <div className="text-2xl m-3 text-white">서장원</div>
               <div className="text-xl mx-2">
                 ssjjww11sfhasfgjplhjk@gmail.com
