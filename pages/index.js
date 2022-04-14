@@ -23,11 +23,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>2022 CNSA 2-5 Rolling Paper</title>
+        <title>2022 CNSA 2-5</title>
       </Head>
 
       <div className=" text-center bg-blue-500 text-white rounded-2xl m-4 p-4 shadow-2xl shadow-blue-500">
-        <div className="text-6xl">2022 CNSA 2-5 Rolling Paper</div>
+        <div className="text-6xl">2022 CNSA 2-5</div>
         <div className="text-2xl mt-6">for 이윤지</div>
       </div>
 
@@ -39,6 +39,15 @@ export default function Home() {
           Rolling Paper
         </div>
         <div className="flex flex-wrap">
+          <div className="bg-rose-300 shadow-rose-300 hover:bg-rose-400 hover:shadow-rose-400 text-rose-300 hover:text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
+            <div className="text-3xl m-2 text-white">연수인</div>
+            <div className="text-2xl mx-2">
+              윤지야 보고 싶을거야 ㅠㅠ 너가 없는 5반 생각하니까 너무 허전할 거
+              같애.. 더 친해지지 못해서 아쉬워 ㅠㅠ 그래두 유학 가서 좋은 추억
+              많이 만들고 한국 오면 꼭 보면 좋겠엉..💗💗 가끔씩 같이 하교할 때
+              재밌었엉 😉❤️
+            </div>
+          </div>
           <div className="bg-red-300 shadow-red-300 hover:bg-red-400 hover:shadow-red-400 text-red-300 hover:text-white duration-700 shadow-2xl  rounded-2xl p-6 m-6">
             <div className="text-3xl m-2 text-white">김범수</div>
             <div className="text-2xl mx-2">&quot;삼성고 퀸카 이윤지&quot;</div>
